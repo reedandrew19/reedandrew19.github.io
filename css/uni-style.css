@@ -50,19 +50,19 @@ a img {
 }
 
 .bgimg-1 {
-    background-image: url("../images/bgs/home-exp.jpg");
+    background-image: url("../images/bgs/code.jpg");
 }
 
 .bgimg-2 {
-    background-image: url("../images/bgs/about.jpg");
+    background-image: url("../images/bgs/Pokemon.jpg");
 }
 
 .bgimg-3 {
-    background-image: url("../images/bgs/home-exp.jpg");
+    background-image: url("../images/bgs/go.jpg");
 }
 
 .bgimg-4 {
-    background-image: url("../images/bgs/contact.jpg");
+    background-image: url("../images/bgs/fl-studio.jpg");
 }
 /* End Background Formatting */
 
@@ -131,7 +131,7 @@ nav.cl-effect-3 a:focus::after {
 
 /* Home */
 #home {
-    background: url("../images/bgs/home-exp.jpg");
+    background: url("../images/bgs/code.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -181,7 +181,7 @@ nav.cl-effect-3 a:focus::after {
 }
 
 #portrait {
-    background: url(../images/about/ps.jpg);
+    background: url(../images/about/reed4.jpg);
     background-size: cover;
     float: left; 
 }

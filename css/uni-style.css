@@ -148,6 +148,7 @@ nav.cl-effect-3 a:focus::after {
 .main-title {
 	position: absolute;
 	color: #f9f1e9;
+    font-size: 450%;
 	text-align: center;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -166,7 +167,7 @@ nav.cl-effect-3 a:focus::after {
 }
 
 .home-caption h1 {
-    font-weight: 100;
+    font-weight: 500;
 }
 /* End Home */
 

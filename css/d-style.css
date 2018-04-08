@@ -108,11 +108,7 @@
         padding: 50px 80px;
         height: 110vw;
     }
-
-    .row.languages {
-        width: 100%;
-    }
-
+    
     .category-name {
         margin-top: 50px;
         margin-bottom: 20px;
@@ -121,39 +117,6 @@
         height: 50px;
         letter-spacing: 5px;
         font-size: 40px; 
-    }
-
-    .bar-container {
-        margin: 10px;
-        margin-left: -10vw;
-        width: 60%;
-    }
-
-    .skill_name {
-        margin-left: 250px;
-        padding-left: 10px;
-        width: 4vw;
-        height: 40px;
-        line-height: 40px;
-        font-size: 13px;
-    }
-
-    .skillbar_wrapper {
-        margin-bottom: 15px;
-        width: 25vw;
-        height: 40px;
-    }
-
-    .skillbar_bar {
-        height: 40px;
-    }
-
-    .skill_bar_percent {
-        right: 10px;
-        top: 3px;
-        font-size: 12px;
-        height: 35px;
-        line-height: 35px;
     }
 
     #exp-tools {
@@ -325,10 +288,6 @@
         height: 110vw;
     }
 
-    .row.languages {
-        width: 100%;
-    }
-
     .category-name {
         margin-top: 50px;
         margin-bottom: 20px;
@@ -339,42 +298,7 @@
         font-size: 40px; 
     }
 
-    .bar-container {
-        margin: 10px;
-        margin-left: -10vw;
-        width: 60%;
-    }
-
-    .skill_name {
-        margin-left: 250px;
-        padding-left: 10px;
-        width: 4vw;
-        height: 40px;
-        line-height: 40px;
-        font-size: 13px;
-    }
-
-    .skillbar_wrapper {
-        margin-bottom: 15px;
-        width: 25vw;
-        height: 40px;
-    }
-
-    .skillbar_bar {
-        height: 40px;
-    }
-
-    .skill_bar_percent {
-        right: 10px;
-        top: 3px;
-        font-size: 12px;
-        height: 35px;
-        line-height: 35px;
-    }
-
     #exp-tools {
-        width: 55%;
-        margin-top: -720px;
     }
 
     .icons a img {
@@ -434,7 +358,7 @@
 @media only screen and (max-width : 1750px) {
     /* Experience */
     #experience {
-        height: 125vw;
+        height: 75vw;
     }
 }
 

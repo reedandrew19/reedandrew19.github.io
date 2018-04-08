@@ -205,12 +205,6 @@ nav.cl-effect-3 a:focus::after {
     text-align: justify;
 }
 
-.row.languages {
-    flex-direction: column;
-    justify-content: flex-start;
-    position: relative;
-}
-
 .category-name {
     float: left;
     font-weight: 500;
@@ -218,48 +212,6 @@ nav.cl-effect-3 a:focus::after {
 
 .projects a img {
         width: 25vw
-}
-
-.bar-container {
-    float: left;
-}
-
-.skill_name {
-    color: white;
-    float: left;
-    border-radius: 3px 0px 0px 3px;
-}
-
-#skill_java {
-    background-color: darkorange;
-}
-
-#skill_py {
-    background-color: darkblue;
-}
-
-#skill_swft {
-    background-color: teal;
-}
-
-#skill_html {
-    background-color: firebrick;
-}
-
-#skill_css {
-    background-color: limegreen;
-}
-
-#skill_js {
-    background-color: dodgerblue;
-}
-
-#skill_mysql {
-    background-color: goldenrod;
-}
-
-#skill_jqry {
-    background-color: darkmagenta;
 }
 
 .skillbar_wrapper {
@@ -270,50 +222,8 @@ nav.cl-effect-3 a:focus::after {
     border-radius: 0px 3px 3px 0px;
 }
 
-.skillbar_bar {
-    width: 0px;
-    border-radius: 0px 3px 3px 0px;
-}
-
-#skillbar_java {
-    background-color: orange;
-}
-
-#skillbar_py {
-    background-color: mediumblue;
-}
-
-#skillbar_swft {
-    background-color: lightseagreen;
-}
-
-#skillbar_html {
-    background-color: indianred;
-}
-
-#skillbar_css {
-    background-color: lime;
-}
-
-#skillbar_js {
-    background-color: deepskyblue;
-}
-
-#skillbar_mysql {
-    background-color: gold;
-}
-
-#skillbar_jqry {
-    background-color: mediumorchid;
-}
-
-.skill_bar_percent {
-    position: absolute;
-    color: black;
-}
-
 #exp-tools {
-    float: right;
+    float: left;
     position: relative;
 }
 
@@ -390,3 +300,7 @@ footer * {
     text-align: center;
 }
 /* End Footer */
+.projects {
+    margin-top: 30px;
+    margin-bottom: -50px;
+}

@@ -106,7 +106,7 @@
     /* Experience */
     #experience {
         padding: 50px 80px;
-        height: 80vw;
+        height: 70vw;
     }
     
     .category-name {
@@ -119,23 +119,9 @@
         font-size: 40px; 
     }
 
-    #exp-tools {
-        width: 55%;
-        margin-top: -720px;
-    }
-
     .icons a img {
         width: 50px;
         margin-bottom: 30px;
-    }
-    
-    #docker img {
-        width: 70px;
-        margin-left: 40px;
-    }
-
-    .design a img {
-        margin-left: 30px;
     }
     /* End Experience */
 
@@ -285,7 +271,7 @@
     /* Experience */
     #experience {
         padding: 50px 80px;
-        height: 110vw;
+        height: 70vw;
     }
 
     .category-name {
@@ -298,21 +284,9 @@
         font-size: 40px; 
     }
 
-    #exp-tools {
-    }
-
     .icons a img {
         width: 50px;
         margin-bottom: 30px;
-    }
-    
-    #docker img {
-        width: 70px;
-        margin-left: 40px;
-    }
-
-    .design a img {
-        margin-left: 30px;
     }
     /* End Experience */
 
@@ -358,13 +332,13 @@
 @media only screen and (max-width : 1750px) {
     /* Experience */
     #experience {
-        height: 75vw;
+        height: 78vw;
     }
 }
 
 @media only screen and (max-width : 1510px) {
     #experience {
-        height: 83vw;
+        height: 80vw;
     }
 
     .category-name {
@@ -376,28 +350,8 @@
         margin-left: 1.3vw;
     }
 
-    .bar-container {
-        margin-left: -15vw;
-    }
-
-    .skill_name {
-        width: 5vw;
-    }
-
-    .skillbar_wrapper {
-        width: 29vw;
-    }
-
-    #exp-tools {
-        
-    }
-
     .icons a img {
         margin-right: 50px;
-    }
-    
-    .design a img {
-        margin-left: 50px;
     }
     
     #exp-tools h2 {
@@ -427,7 +381,7 @@
    /* Experience */
     #experience {
         padding: 50px 80px;
-        height: 125vw;
+        height: 80vw;
     }
     
     .langs, .tools {
@@ -435,56 +389,9 @@
         width: 35vw;
     }
 
-    .bar-container {
-        margin: 10px;
-        margin-left: -16vw;
-        width: 55%;
-    }
-
-    .skill_name {
-        margin-left: 250px;
-        padding-left: 8px;
-        width: 4.7vw;
-        height: 30px;
-        line-height: 30px;
-        font-size: 12px;
-    }
-
-    .skillbar_wrapper {
-        margin-bottom: 5px;
-        width: 24vw;
-        height: 30px;
-    }
-    
-    .skillbar_bar {
-        height: 30px;
-    }
-
-    .skill_bar_percent {
-        right: 10px;
-        top: 0px;
-        font-size: 12px;
-        height: 30px;
-        line-height: 30px;
-    }
-
-    #exp-tools {
-        width: 55%;
-        margin-top: -563px;
-    }
-
     .icons a img {
         width: 45px;
         margin-bottom: 20px;
-    }
-    
-    #docker img {
-        width: 60px;
-        margin-left: 40px;
-    }
-
-    .design a img {
-        margin-left: 45px;
     }
     /* End Experience */ 
     
@@ -500,50 +407,12 @@
    /* Experience */
     #experience {
         padding: 50px 80px;
-        height: 135vw;
+        height: 88vw;
     }
     
     .langs, .tools {
         font-size: 30px;
         width: 35vw;
-    }
-
-    .bar-container {
-        margin: 10px;
-        margin-left: -16vw;
-        width: 70%;
-    }
-
-    .skill_name {
-        margin-left: 250px;
-        padding-left: 8px;
-        width: 4.7vw;
-        height: 30px;
-        line-height: 30px;
-        font-size: 12px;
-    }
-
-    .skillbar_wrapper {
-        margin-bottom: 5px;
-        width: 24vw;
-        height: 30px;
-    }
-    
-    .skillbar_bar {
-        height: 30px;
-    }
-
-    .skill_bar_percent {
-        right: 10px;
-        top: 0px;
-        font-size: 12px;
-        height: 30px;
-        line-height: 30px;
-    }
-
-    #exp-tools {
-        width: 55%;
-        margin-top: -563px;
     }
     
     .column {
@@ -560,12 +429,6 @@
         width: 44px;
         margin-top: 18px;
         margin-left: -1.5vw;  
-    }
-    
-    #docker img {
-        width: 60px;
-        margin-left: -20px;
-        margin-top: 5px;
     }
     
     .column h2 {
@@ -587,78 +450,7 @@
 
 }
 
-@media only screen and (max-width : 1150px) {
-   /* Experience */
-    
-    .langs, .tools {
-        font-size: 25px;
-        width: 35vw;
-    }
-
-    .bar-container {
-        margin: 10px;
-        margin-left: -18.5vw;
-        width: 70%;
-    }
-
-    .skill_name {
-        margin-left: 250px;
-        padding-left: 8px;
-        width: 5.8vw;
-        height: 30px;
-        line-height: 30px;
-        font-size: 12px;
-    }
-
-    .skillbar_wrapper {
-        margin-bottom: 5px;
-        width: 24vw;
-        height: 30px;
-    }
-    
-    .skillbar_bar {
-        height: 30px;
-    }
-
-    .skill_bar_percent {
-        right: 10px;
-        top: 0px;
-        font-size: 12px;
-        height: 30px;
-        line-height: 30px;
-    }
-    
-k    .tools {
-        margin-left: 0vw;
-    }
-
-    #exp-tools {
-        margin-top: -560px;
-    }
-
-    .icons a img {
-        width: 35px;
-        margin-top: 25px;
-        margin-left: -1.8vw;  
-    }
-    
-    .dev a img, .design a img {
-        margin-top: 19px;
-    }
-    
-    #docker img {
-        width: 45px;
-        margin-left: -20px;
-        margin-top: 10px;
-    }
-    
-    .dev h2, .design h2 {
-        padding-top: 4px;
-    }
-    /* End Experience */ 
-}
-
-@media only screen and (max-width : 1100px) {
+@media only screen and (max-width : 1179px) {
     /* About */
     #about {
         padding: 50px 80px;
@@ -675,70 +467,60 @@ k    .tools {
         font-size: 1.3vw;
         line-height: 1.8vw;
         margin-top: 9vw;
-        height: 50vw;
+        height: 55vw;
     }
     /* End About */
     
+   /* Experience */
+    #experience {
+        padding: 50px 80px;
+        height: 93vw;
+    }
+    
+    .projects {
+    margin-top: 50px;
+    margin-bottom: -50px;
+    }
+    
+    .langs, .tools {
+        font-size: 25px;
+        width: 35vw;
+    }
+
+    .icons a img {
+        width: 35px;
+        margin-top: 25px;
+        margin-left: -1.8vw;  
+    }
+    
+    .dev a img, .design a img {
+        margin-top: 19px;
+    }
+    
+    .dev h2, .design h2 {
+        padding-top: 4px;
+    }
+    /* End Experience */ 
+}
+
+@media only screen and (max-width : 1100px) {
+    
     /* Experience */
     #experience {
-        height: 138vw;
+        height: 97vw;
     }
 }
 
 @media only screen and (max-width : 1070px) {
     /* Experience */
     #experience {
-        height: 142vw;
+        height: 100vw;
     }
     
     .langs, .tools {
         font-size: 25px;
         width: 35vw;
         margin-left: -0.5vw;
-    }
-
-    .bar-container {
-        margin: 10px;
-        margin-left: -24vw;
-        width: 70%;
-    }
-
-    .skill_name {
-        margin-left: 250px;
-        padding-left: 8px;
-        width: 5.8vw;
-        height: 30px;
-        line-height: 30px;
-        font-size: 12px;
-    }
-
-    .skillbar_wrapper {
-        margin-bottom: 5px;
-        width: 24vw;
-        height: 30px;
-    }
-    
-    .skillbar_bar {
-        height: 30px;
-    }
-
-    .skill_bar_percent {
-        right: 10px;
-        top: 0px;
-        font-size: 12px;
-        height: 30px;
-        line-height: 30px;
-    }
-
-    #exp-tools {
-        margin-top: -560px;
-        left: -3vw;
-    }
-    
-    #docker img {
-        width: 45px;
-        margin-left: -20px;
-        margin-top: 20px;
     }
     
     .dev h2, .design h2 {

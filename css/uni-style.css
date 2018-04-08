@@ -72,13 +72,11 @@ nav {
     width: 100%;
     position: fixed;
 	color: #f9f1e9;
+    background: rgba(60, 60, 60, .5);
 	text-align: center;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
-}
-
-.scroll-mode {
-    background: rgba(60, 60, 60, .5);
+    z-index: 1;
 }
 
 .active {
@@ -141,7 +139,6 @@ nav.cl-effect-3 a:focus::after {
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-	z-index: 1;
     display: block;
 }
 
@@ -191,6 +188,7 @@ nav.cl-effect-3 a:focus::after {
     background-color: rgba(50, 50, 50, .6);
     font-weight: 100;
     text-align: left;
+    text-align: justify;
     float: right;
 }
 /* End About */
@@ -213,6 +211,12 @@ nav.cl-effect-3 a:focus::after {
 .projects a img {
         width: 25vw
 }
+
+.projects {
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+
 
 .skillbar_wrapper {
     float: left;
@@ -300,7 +304,3 @@ footer * {
     text-align: center;
 }
 /* End Footer */
-.projects {
-    margin-top: 30px;
-    margin-bottom: -50px;
-}

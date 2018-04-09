@@ -62,7 +62,7 @@ $(document).ready(function(){
                     $('html, body').animate({
                         scrollTop: target.offset().top - 68
                     }, 1500);
-                    return false;
+                    return true;
                 }
             }
         });

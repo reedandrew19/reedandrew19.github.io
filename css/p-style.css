@@ -5,14 +5,14 @@
     /* Nav Bar */
     nav {
         padding: 0;
-        top: 4%;
+        top: 3%;
         left: 50%;
-        height: 70px;
+        height: 50px;
     }
 
     nav span {
-        margin: 20px 20px;
-        font-size: 16px;
+        margin: 20px 10px;
+        font-size: 12px;
     }
     /* End Nav Bar */
 
@@ -46,29 +46,32 @@
     /* About */
     #about {
         padding: 50px 60px;
-        height: 210vw;
+        height: 250vw;
     }
 
     #portrait {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 200px; 
+        height: 300px;
         margin-top: 15vw;
-        margin-left: 75px;
     }
 
     #about-me {
         width: 75vw;
         font-size: 2.5vw;
         line-height: 3.4vw;
-        margin-top: 7vw;
         left: 70px;
-        height: 550px;
+        height: 600px;
     }
     /* End About */
     
     
     /* Experience */
     #experience {
-        height: 3200px;
+        height: 1800px;
     }
     
     .row {
@@ -79,49 +82,15 @@
         width: 60vw;
     }
     
-    .langs {
-        font-size: 30px;
-    }
-    
     .projs, .langs, .tools {
+        font-size: 30px;
         margin-top: 20px;
     }
     
     .tools {
-        margin-left: 60px;
-    }
-
-    .bar-container {
-        margin: 15px;
-        margin-bottom: 5px;
-        width: 105%;
-    }
-
-    .skill_name {
-        margin-left: 24px;
-        padding-left: 10px;
-        width: 15vw;
-        height: 30px;
-        line-height: 30px;
-        font-size: 13px;
-    }
-
-    .skillbar_wrapper {
-        margin-bottom: 5px;
-        width: 60vw;
-        height: 30px;
-    }
-
-    .skillbar_bar {
-        height: 30px;
-    }
-
-    .skill_bar_percent {
-        right: 10px;
-        top: 0px;
-        font-size: 12px;
-        height: 30px;
-        line-height: 30px;
+        margin-left: -45px;
+        font-size: 30px;
+        width: 100vw;
     }
 
     #exp-tools {
@@ -132,56 +101,36 @@
     }
     
     .row.icons {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         width: 85vw;
         margin-left: 0px;
     }
     .icons {
-        flex-direction: column;
+        flex-direction: row;
     }
     
     .column {
-        flex-direction: row;
+        width: 45vw;
+        flex-direction: column;
         margin-right: -15px;
-    }
-    
-    .design {
-        margin-right: -40px;
     }
     
     #exp-tools h2 {
         font-size: 14px;
-        margin-top: 22px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+
     }
-    
-    .design h2 {
-        width: 90px;
-    }
-    
     .column h2 {
         font-size: 16px;
-        border-right: 1px solid #FFF;
+        border-right: none;
         margin-right: 50px;
     }
 
     .icons a img {
         width: 30px;
         margin-bottom: 0px;
-        margin-left: -30px
-    }
-    
-    #docker img {
-        width: 45px;
-        margin-left: -25px;
-        margin-top: 15px;
-    }
-
-    .design a img {
-        margin-left: -30px;
-    }
-    
-    .dev a img {
-        margin-left: -30px;
+        margin-left: 25px;
     }
     /* End Experience */
     
@@ -189,7 +138,7 @@
     /* Contact */
     #contact {
         padding: 50px 40px;
-        height: 800px;
+        height: 930px;
     }
 
     .row.contact {
@@ -228,6 +177,61 @@
     /* End Contact */
 
 }
+
+@media only screen and (max-width : 422px) { 
+    /* About */
+    #about {
+        padding: 50px 60px;
+        height: 290vw;
+    }
+
+    #portrait {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px; 
+        height: 300px;
+        margin-top: 15vw;
+    }
+
+    #about-me {
+        width: 75vw;
+        font-size: 2.5vw;
+        line-height: 3.4vw;
+        left: 70px;
+        height: 600px;
+    }
+    /* End About */
+}
+
+@media only screen and (max-width : 361px) { 
+    /* About */
+    #about {
+        padding: 50px 60px;
+        height: 310vw;
+    }
+
+    #portrait {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px; 
+        height: 300px;
+        margin-top: 15vw;
+    }
+
+    #about-me {
+        width: 75vw;
+        font-size: 2.5vw;
+        line-height: 3.4vw;
+        left: 70px;
+        height: 600px;
+    }
+    /* End About */
+}
+
 
 /*Phone Breakpoints Portrait*/
 @media only screen and (max-width : 320px) {
@@ -275,7 +279,7 @@
     /* About */
     #about {
         padding: 50px 35px;
-        height: 1430px;
+        height: 1600px;
     }
 
     #portrait {
@@ -291,14 +295,14 @@
         line-height: 6vw;
         margin-top: 10vw;
         margin-left: 9px;
-        height: 950px;
+        height: 1150px;
     }
     /* End About */
     
     
     /* Experience */
     #experience {
-        height: 3000px;
+        height: 1800px;
     }
     
     .row {
@@ -309,12 +313,8 @@
         width: 60vw;
     }
     
-    .langs {
-        font-size: 25px;
-        margin-bottom: 35px;
-    }
-    
     .projs, .langs, .tools {
+        font-size: 30px;
         margin-top: 20px;
     }
     
@@ -322,39 +322,6 @@
         margin-left: -45px;
         font-size: 30px;
         width: 100vw;
-    }
-
-    .bar-container {
-        margin: 15px;
-        margin-bottom: 5px;
-        width: 120%;
-    }
-
-    .skill_name {
-        margin-left: 14px;
-        padding-left: 8px;
-        width: 20vw;
-        height: 25px;
-        line-height: 25px;
-        font-size: 12px;
-    }
-
-    .skillbar_wrapper {
-        margin-bottom: 0px;
-        width: 50vw;
-        height: 25px;
-    }
-
-    .skillbar_bar {
-        height: 25px;
-    }
-
-    .skill_bar_percent {
-        right: 10px;
-        top: 0px;
-        font-size: 12px;
-        height: 25px;
-        line-height: 25px;
     }
 
     #exp-tools {
@@ -379,23 +346,12 @@
         margin-right: -15px;
     }
     
-    .design {
-        margin-right: -40px;
-    }
-    
     #exp-tools h2 {
         font-size: 14px;
         margin-top: 10px;
         margin-bottom: -10px;
 
     }
-    
-    .design h2 {
-        width: 90px;
-        margin-left: 2px
-        
-    }
-    
     .column h2 {
         font-size: 16px;
         border-right: none;
@@ -407,24 +363,13 @@
         margin-bottom: 0px;
         margin-left: 25px;
     }
-    
-    #docker img {
-        width: 45px;
-        margin-left: 19px;
-        margin-top: 12px;
-        margin-bottom: -10px;
-    }
-
-    .design a img {
-        margin-left: 16px;
-    }
     /* End Experience */
     
     
     /* Contact */
     #contact {
         padding: 50px 40px;
-        height: 730px;
+        height: 900px;
     }
 
     .row.contact {

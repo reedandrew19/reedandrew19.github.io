@@ -1,7 +1,7 @@
 /*Mobile Stylesheet*/
 
 /*Phone Breakpoints Landscape*/
-@media only screen and (max-width : 481px) {    
+@media only screen and (max-width : 486px) {    
     /* Nav Bar */
     nav {
         padding: 0;
